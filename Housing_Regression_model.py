@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 # importing the housing dataset
-house = pd.read_csv(r"C:\Users\Pawan Kataria\OneDrive\ML_Projects\Regression\housing.csv")
+house = pd.read_csv("housing.csv")
 #checking the any null values inside the dataset
 house.isnull().sum()
 # separating the dataset into independent and dependent variables
